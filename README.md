@@ -17,10 +17,24 @@
 * part10-2: Using Nltk SentimentIntensityAnalyzer to analyze sentiment for each article
 * part11: Create DataFrame <br><br>
 
-**Visualization of results: Introduction and personal insights found from Image1~6** <br>
+**Visualization of results: Introduction and personal insights found from Image1~6:** <br>
+
+##### Image1: The Number Of Article Stressed On Different Candidates
 
 
+##### Image2:
 
+
+##### Image3:
+
+
+##### Image4:
+
+
+##### Image5:
+
+
+##### Image6:
 
 
 
