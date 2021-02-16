@@ -50,6 +50,7 @@ In image3, we presented the average negative sentiment density of articles from 
 
 * `Insight`: <br>
 From Image3, we discovered that articles from both category "trump" and "biden" contain more negative words then positive words. And the sentiment density for candidate Donald Trump is more negative then candidate Joe Biden.
+<br><br>
 
     Image4: NLTK compound scores in heatmap
 
@@ -72,6 +73,7 @@ In image5, we presented the same information as in image4, but in stacked bar ch
 
 * `Insight`: <br>
 From Image4&5, we discovered that almost all the articles from category "trump" are much more negative then articles from category "biden". This result showed us that articles talking more about candidate Donald Trump are more likely to be negative and this conclusion can be further confirmed in Image6. 
+<br><br>
 
     Image6: Average Sentiment Density and Total Frequency candidates mentioned between Oct.20-Nov,2
 
