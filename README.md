@@ -17,7 +17,7 @@
 * part10-2: Using Nltk SentimentIntensityAnalyzer to analyze sentiment for each article
 * part11: Create DataFrame <br><br>
 
-## Visualization of results: Introduction and personal insights found from Image1~6: <br>
+## Visualization of results: Introduction and personal insights found from Image1~6 <br>
 
 #### Image1: The Number Of Article Stressed On Different Candidates<br>
 
@@ -32,19 +32,30 @@ In part9, we calculated the frequency of word "Trump" and "Biden" mentioned in e
 In image2, we presented the sum of total frequency of words "Trump" and "Biden" in every article on a daily basis.<br>
 
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image2.png)
+<br>
+* `Insight`
+From Image1&2, we can tell that the media volume of candidate Donald Trump on New York Times is way higher then that of candidate Joe Biden, which means that New York Times articles discussed more about Donald Trump then Joe Biden. Now it is important to apply sentiment analysis on each article text to see whether or not NY Times preferred to present positive or negative emotion on each article marked with certain categories.
+
+<br><br>
+
+#### Image3: Average Negative Sentiment Density of Daily Articles Stressed On Both Candidate
+
+![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image3.png)
 
 
-#### Image3:
+#### Image4: NLTK compound scores in heatmap
+
+![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image4.png)
+
+#### Image5: NLTK compound scores in stacked bar charts
 
 
-#### Image4:
+![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image5.png)
+
+#### Image6: Average Sentiment Density and Total Frequency candidates mentioned between Oct.20-Nov,2
 
 
-#### Image5:
-
-
-#### Image6:
-
+![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image6.png)
 
 
 
