@@ -19,7 +19,7 @@
 
 ## Visualization of results: Introduction and personal insights found from Image1~6 <br>
 
-  Image1: The Number Of Article Stressed On Different Candidates<br>
+`Image1: The Number Of Article Stressed On Different Candidates<br>
 
 In part9, we calculated the frequency of word "Trump" and "Biden" mentioned in each articles in order to find the media volume for each candidate. We then divided each article into three categories, including "trump", "biden", and "both". If the amount of times "Trump" mentioned in each articles surpassed that of "biden", the article would be marked as "trump", otherwise it would be marked as "biden". And then If the amount of times "Trump" mentioned in each articles equals to that of "biden", it would be marked as "both". In image1, we presented the number of article with three categories on a daily basis.<br>
 
@@ -27,7 +27,7 @@ In part9, we calculated the frequency of word "Trump" and "Biden" mentioned in e
 <br><br>
 
 
-  Image2: The Frequency Both Candidates Mentioned In Articles<br>
+`Image2: The Frequency Both Candidates Mentioned In Articles<br>
 
 In image2, we presented the sum of total frequency of words "Trump" and "Biden" in every article on a daily basis.<br>
 
