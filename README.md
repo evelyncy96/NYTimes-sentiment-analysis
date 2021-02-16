@@ -52,7 +52,7 @@ In image3, we presented the average negative sentiment density of articles from 
 From Image3, we discovered that articles from both category "trump" and "biden" contain more negative words then positive words. And the sentiment density for candidate Donald Trump is more negative then candidate Joe Biden.
 <br><br>
 
-    Image4: NLTK compound scores in heatmap
+    Image4: NLNLTK compound scores in heatmap
 
 In part10-2, we use Nltk `SentimentIntensityAnalyzer` from `nltk.sentiment.vader` to analyze sentiment for each article, the VADER algorithm outputs sentiment scores to 4 classes of sentiments:
 * `pos`:Positive
