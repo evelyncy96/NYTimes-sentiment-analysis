@@ -6,22 +6,22 @@
 
 
 **I divided my code into 12 parts, the description for each parts were presented below:** <br>
-* part0: Import libraries and packages
-* part1-4: Collect the articles url from [NYTimes archive](https://help.nytimes.com/hc/en-us/articles/115014772767-Archives) using Selenium
-* part5: Web-scrape text, title, publish time of all articles and lower the article text
-* part6: Tokenize each article text
-* part7: Import Loughran and McDonald positive and negative dictionaries
-* part8: Remove stopwords from article text
-* part9: Calculate the amount of times "trump" and "biden" mentioned in each articles to find the media volume for each candidate
-* part10-1: Using neg & pos wordbag from LM emotional dictionary to analyze sentiment for each article, score range from -1 to +1
-* part10-2: Using Nltk SentimentIntensityAnalyzer to analyze sentiment for each article
-* part11: Create DataFrame <br><br>
+* `part0`: Import libraries and packages
+* `part1-4`: Collect the articles url from [NYTimes archive](https://help.nytimes.com/hc/en-us/articles/115014772767-Archives) using `Selenium`
+* `part5`: Web-scrape text, title, publish time of all articles and lower the article text
+* `part6`: Tokenize each article text
+* `part7`: Import Loughran and McDonald positive and negative dictionaries
+* `part8`: Remove stopwords from article text
+* `part9`: Calculate the amount of times "trump" and "biden" mentioned in each articles to find the media volume for each candidate
+* `part10-1`: Using neg & pos wordbag from LM emotional dictionary to analyze sentiment for each article, score range from -1 to +1
+* `part10-2`: Using `Nltk SentimentIntensityAnalyzer` to analyze sentiment for each article
+* `part11`: Create DataFrame <br><br>
 
 ## Visualization of results: Introduction and personal insights found from Image1~6 <br>
 
     Image1: The Number Of Article Stressed On Different Candidates
 
-In part9, we calculated the frequency of word "Trump" and "Biden" mentioned in each articles in order to find the media volume for each candidate. We then divided each article into three categories, including "trump", "biden", and "both". If the amount of times "Trump" mentioned in each articles surpassed that of "biden", the article would be marked as "trump", otherwise it would be marked as "biden". And then If the amount of times "Trump" mentioned in each articles equals to that of "biden", it would be marked as "both". In image1, we presented the number of article with three categories on a daily basis in line chart using matplotlib.<br>
+In part9, we calculated the frequency of word "Trump" and "Biden" mentioned in each articles in order to find the media volume for each candidate. We then divided each article into three categories, including "trump", "biden", and "both". If the amount of times "Trump" mentioned in each articles surpassed that of "biden", the article would be marked as "trump", otherwise it would be marked as "biden". And then If the amount of times "Trump" mentioned in each articles equals to that of "biden", it would be marked as "both". In image1, we presented the number of article with three categories on a daily basis in Line chart using Matplotlib.<br>
 
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image1.png)
 <br><br>
@@ -29,7 +29,7 @@ In part9, we calculated the frequency of word "Trump" and "Biden" mentioned in e
 
     Image2: The Frequency Both Candidates Mentioned In Articles
 
-In image2, we presented the sum of total frequency of words "Trump" and "Biden" in every article on a daily basis in line chart using matplotlib.<br>
+In image2, we presented the sum of total frequency of words "Trump" and "Biden" in every article on a daily basis in Line chart using Matplotlib.<br>
 
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image2.png)
 <br>
@@ -43,7 +43,7 @@ From Image1&2, we can tell that the media volume of candidate Donald Trump on Ne
 In part8, we removed stopwords from article text. And then in part 10-1, we calculate sentiment density in list 'sent_article', and the formula is presented below:<br>
 `sentiment density for each article = (# of positive token - # of negative token) / (# of positive token - # of negative token)`<br>
 
-In image3, we presented the average negative sentiment density of articles from both category 'trump' and 'biden' on a daily basis in heatmap using seaborn package.<br>
+In image3, we presented the average negative sentiment density of articles from both category 'trump' and 'biden' on a daily basis in heatmap using Seaborn package.<br>
 
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image3.png)
 <br><br>
@@ -61,14 +61,14 @@ In part10-2, we use Nltk `SentimentIntensityAnalyzer` from `nltk.sentiment.vader
 * `neu`: Neutral
 * `compound`: Compound (i.e. aggregated score, ranging from -1 (most neg) to 1 (most pos))<br>
 
-In image4, we presented compound scores of articles from both category 'trump' and 'biden' on a daily basis in heatmap using seaborn package.
+In image4, we presented compound scores of articles from both category 'trump' and 'biden' on a daily basis in heatmap using Seaborn package.
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image4.png)
 <br><br>
 
     Image5: NLTK compound scores in stacked bar charts
 
 
-In image5, we presented the same information as in image4, but in stacked bar charts using matplotlib. This chart turned the data into a more digestible format.
+In image5, we presented the same information as in image4, but in stacked bar charts using Matplotlib. This chart turned the data into a more digestible format.
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image5.png)
 <br><br>
 
