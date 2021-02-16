@@ -7,7 +7,7 @@
 
 **I divided my code into 12 parts, the description for each parts were presented below:** <br>
 * part0: Import libraries and packages
-* part1-4: Collect the articles url using Selenium
+* part1-4: Collect the articles url from [NYTimes archive](https://help.nytimes.com/hc/en-us/articles/115014772767-Archives) using Selenium
 * part5: Web-scrape text, title, publish time of all articles and lower the article text
 * part6: Tokenize each article text
 * part7: Import Loughran and McDonald positive and negative dictionaries
