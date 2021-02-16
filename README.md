@@ -75,7 +75,7 @@ In image5, we presented the same information as in image4, but in stacked bar ch
 From Image4&5, we discovered that almost all the articles from category "trump" are much more negative then articles from category "biden". This result showed us that articles talking more about candidate Donald Trump are more likely to be negative and this conclusion can be further confirmed in Image6. 
 <br><br>
 
-    Image6: Average Sentiment Density and Total Frequency candidates mentioned between Oct.20-Nov,2
+    Image6: Average Sentiment Density and Total Frequency candidates mentioned between Oct.20-Nov.2
 
 In image6, we combined average sentiment density and total frqeuency candiate mentioned in all articles in one chart.
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image6.png)
