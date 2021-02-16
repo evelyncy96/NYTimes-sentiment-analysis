@@ -53,13 +53,13 @@ From Image3, we discovered that articles from both category "trump" and "biden" 
 
 <br><br>
 
-    Image4: NLNLTK compound scores in heatmap
+    Image4: NLTK compound scores in heatmap
 
 In part10-2, we use Nltk `SentimentIntensityAnalyzer` from `nltk.sentiment.vader` to analyze sentiment for each article, the VADER algorithm outputs sentiment scores to 4 classes of sentiments:<br>
-* `pos`:Positive
-* `neg`:Negative
-* `neu`:Neutral
-* `compound`:Compound (i.e. aggregated score, ranging from -1 (most neg) to 1 (most pos))<br>
+* `pos`: Positive
+* `neg`: Negative
+* `neu`: Neutral
+* `compound`: Compound (i.e. aggregated score, ranging from -1 (most neg) to 1 (most pos))<br>
 
 In image4, we presented compound scores of articles from both category 'trump' and 'biden' on a daily basis in heatmap using seaborn package.
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image4.png)
