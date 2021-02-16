@@ -19,7 +19,7 @@
 
 ## Visualization of results: Introduction and personal insights found from Image1~6 <br>
 
-#### Image1: The Number Of Article Stressed On Different Candidates<br>
+  Image1: The Number Of Article Stressed On Different Candidates<br>
 
 In part9, we calculated the frequency of word "Trump" and "Biden" mentioned in each articles in order to find the media volume for each candidate. We then divided each article into three categories, including "trump", "biden", and "both". If the amount of times "Trump" mentioned in each articles surpassed that of "biden", the article would be marked as "trump", otherwise it would be marked as "biden". And then If the amount of times "Trump" mentioned in each articles equals to that of "biden", it would be marked as "both". In image1, we presented the number of article with three categories on a daily basis.<br>
 
@@ -27,7 +27,7 @@ In part9, we calculated the frequency of word "Trump" and "Biden" mentioned in e
 <br><br>
 
 
-#### Image2: The Frequency Both Candidates Mentioned In Articles<br>
+  Image2: The Frequency Both Candidates Mentioned In Articles<br>
 
 In image2, we presented the sum of total frequency of words "Trump" and "Biden" in every article on a daily basis.<br>
 
@@ -38,21 +38,27 @@ From Image1&2, we can tell that the media volume of candidate Donald Trump on Ne
 
 <br><br>
 
-#### Image3: Average Negative Sentiment Density of Daily Articles Stressed On Both Candidate
+#### Image3: Average Negative Sentiment Density of Daily Articles Stressed On Both Candidate<br>
+
+In part8, we removed stopwords from article text. And then in part 10-1, we calculate sentiment density in list 'sent_article', and the formula is presented below:<br>
+sentiment density for each article = (# of positive token - # of negative token) / (# of positive token - # of negative token)<br>
+
+In image3, we presented the average negative sentiment density of both candidates on a daily basis.<br>
 
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image3.png)
+<br><br>
 
+#### Image4: NLTK compound scores in heatmap<br>
 
-#### Image4: NLTK compound scores in heatmap
-
+In part10-2, we use Nltk SentimentIntensityAnalyzer from `nltk.sentiment.vader` to analyze sentiment for each article
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image4.png)
-
-#### Image5: NLTK compound scores in stacked bar charts
+<br><br>
+#### Image5: NLTK compound scores in stacked bar charts<br>
 
 
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image5.png)
-
-#### Image6: Average Sentiment Density and Total Frequency candidates mentioned between Oct.20-Nov,2
+<br><br>
+#### Image6: Average Sentiment Density and Total Frequency candidates mentioned between Oct.20-Nov,2<br>
 
 
 ![image](https://github.com/evelyncy96/NYTimes-sentiment-analysis/blob/main/Visualization/image6.png)
