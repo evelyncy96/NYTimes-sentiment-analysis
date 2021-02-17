@@ -41,7 +41,7 @@ From Image1&2, we can tell that the media volume of candidate Donald Trump on Ne
     Image3: Average Negative Sentiment Density of Daily Articles Stressed On Both Candidate
 
 In part8, we removed stopwords from article text. And then in part 10-1, we calculate sentiment density in list 'sent_article', and the formula is presented below:<br>
-`sentiment density for each article = (# of positive token - # of negative token) / (# of positive token - # of negative token)`<br>
+`sentiment density for each article = (# of positive token - # of negative token) / (# of positive token + # of negative token)`<br>
 
 In image3, we presented the average negative sentiment density of articles from both category 'trump' and 'biden' on a daily basis in heatmap using Seaborn package.<br>
 
